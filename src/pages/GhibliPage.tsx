@@ -1,8 +1,6 @@
 import React from "react";
 
-
-type GhibliPageArgs = {}
-    
+type GhibliPageArgs = {};
 
 const GhibliPage = () => {
   return <div></div>;

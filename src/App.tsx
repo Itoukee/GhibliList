@@ -1,13 +1,10 @@
-
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import './App.css'
-import BrewRecipe from "./pages/BrewRecipe";
+import "./App.css";
+import BrewRecipe from "./pages/GhibliPage";
 
 function App() {
-  
-
   return (
     <BrowserRouter>
       <Routes>
@@ -18,4 +15,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
